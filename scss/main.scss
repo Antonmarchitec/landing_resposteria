@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body, header{
+    font-family: 'DynaPuff', cursive;
+}
+
+
+
+@import "colorFont";
+@import "grid";
+@import "header";
+@import "section_one";
+@import "section_tho";
+@import "section_three";
+@import "section_four";
+@import "footer";
