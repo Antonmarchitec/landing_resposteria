@@ -1,0 +1,90 @@
+@import "colorFont";
+
+
+/*
+cont_sectionTwo
+cont_sectionTwo_title
+cont_sectionTwo_Subtitle
+cont_sectionTwo_parrafo
+cont_sectionTwo_block
+    cont_sectionTwo_block_box
+     cont_sectionTwo_block_box_img
+     cont_sectionTwo_block_box_name
+cont_sectionTwo_buttom
+*/
+
+.cont_sectionTwo{
+    width: 100%;
+    padding: 100px 30px;
+    background: $color_white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .cont_sectionTwo_title{
+        font-size: $fuente_h2;
+        color: $color_rojoBoton;
+        font-weight: 400;
+    }
+
+    .cont_sectionTwo_Subtitle{
+        margin-top: 5px;
+        color: $color_black;
+        font-weight: 400;
+        font-size: 35px;
+
+    }
+
+    .cont_sectionTwo_parrafo{
+        margin-top: 30px;
+        color: $color_black;
+        text-align: center;
+        width: 80%;
+        font-family: $fuente_parrafo;
+        font-size: 18px;
+    }
+
+    .cont_sectionTwo_block{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .cont_sectionTwo_block_box{
+            width:300px;
+            padding: 10px 0px;
+            .cont_sectionTwo_block_box_img{
+                width: 100px;
+                height: 100px;
+                margin: auto;
+            }
+            .cont_sectionTwo_block_box_name{
+                margin-top: 5px;
+                width: 100%;
+                padding: 5px 0px;
+                text-align: center;
+                font-weight:400;
+                font-family: $fuente_parrafo;
+            }
+        }
+    }
+
+    .cont_sectionTwo_buttom{
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px 0px;
+        background:$color_rojoBoton;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        transition: 0.3s all;   
+    }
+    .cont_sectionTwo_buttom:hover{
+        cursor: pointer;
+        background: rgb(176, 176, 176);
+        box-shadow: 0px 2px 0px white;
+    }
+}
