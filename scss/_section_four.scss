@@ -1,0 +1,105 @@
+@import "colorFont";
+
+/*
+grid_sectionFour_left
+    contSectionFour_title
+    contSectionFour_parrafo
+    contSectionFour_form
+        contSectionFour_form_block
+            contSectionFour_form_block_input
+        contSectionFour_form_block
+            contSectionFour_form_block_buttom
+            contSectionFour_form_block_parrafo
+
+
+grid_sectionFour_right
+*/
+
+.contSectionFour{
+    width: 100%;
+    padding:150px 50px;
+    background:$color_white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .contSectionFour_left{
+        width:420px;
+        padding: 10px 0px;
+        .contSectionFour_left_title{
+            color: $color_rojoBoton;
+            font-size: $fuente_h2;
+            font-weight: 400;
+        }
+        .contSectionFour_left_parrafo{
+            margin-top: 5px;
+            color: $color_black_fuerte;
+            font-family: $fuente_parrafo;
+            font-size: 18px;
+        }
+        .contSectionFour_left_form{
+            width: 100%;
+            padding: 10px 0px;
+            margin-top: 10px;
+            .contSectionFour_left_form_block1{
+                margin-bottom: 5px;
+                width: 100%;
+                padding: 5px 0px;
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+                align-items: center;
+                .contSectionFour_form_block_input1{
+                    width:200px;
+                    input{
+                        width: 100%;
+                        outline: none;
+                        padding: 10px;
+                        border-radius: 20px;
+                        border: none;
+                        color: $color_black_fuerte;
+                        background: $color_grey;
+                    }
+                }
+
+            }
+
+            .contSectionFour_left_form_block2{
+                width: 100%;
+                padding: 5px 0px;
+                display: flex;
+                justify-content:space-between;
+                align-items: flex-start;
+                .contSectionFour_left_form_block_buttom{
+                    width: 150px;
+                    padding: 10px 0px;
+                    background:$color_rojoBoton;
+                    color: white;
+                    border: none;
+                    border-radius: 10px;
+                    transition: 0.3s all;
+                }
+                .contSectionFour_left_form_block_buttom:hover{
+                    cursor: pointer;
+                    background: rgb(176, 176, 176);
+                    box-shadow: 0px 2px 0px white;
+                }
+                .contSectionFour_left_form_block_parrafo{
+                    width: 250px;
+                    font-family:$fuente_parrafo;
+                    margin-left: 10px;
+                    color: $color_black_fuerte;
+                }
+            }
+        }
+
+        
+    }
+    .grid_sectionFour_right{
+        width: 50%;
+        height: 450px;
+        padding: 10px 0px;
+        background: grey;
+    }
+}
