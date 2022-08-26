@@ -1,9 +1,9 @@
 .grid_container{
     width: 100%;
     max-width: 1440px;
-    padding: 10px 0px;
+    //padding: 10px 0px;
     margin: auto;
-    background: brown;
+    //background: brown;
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(3,1fr);
@@ -18,38 +18,38 @@
         ;
 
         .grid_header{
-            padding: 10px 0px;
-            background: rgb(200, 88, 88);
+            //padding: 10px 0px;
+            //background: rgb(200, 88, 88);
             grid-area: grid_header;
         }
 
         .grid_sectionOne{
-            padding: 10px 0px;
-            background: rgb(200, 88, 88);
+            //padding: 10px 0px;
+            //background: rgb(200, 88, 88);
             grid-area: grid_sectionOne;
         }
 
         .grid_sectionTwo{
-            padding: 10px 0px;
-            background: rgb(200, 88, 88);
+            //padding: 10px 0px;
+            //background: rgb(200, 88, 88);
             grid-area: grid_sectionTwo;
         }
 
         .grid_sectionThree{
-            padding: 10px 0px;
-            background: rgb(200, 88, 88);
+            //padding: 10px 0px;
+            //background: rgb(200, 88, 88);
             grid-area: grid_sectionThree;
         }
 
         .grid_sectionFour{
-            padding: 10px 0px;
-            background: rgb(200, 88, 88);
+            //padding: 10px 0px;
+            //background: rgb(200, 88, 88);
             grid-area: grid_sectionFour;
         }
 
         .grid_footer{
-            padding: 10px 0px;
-            background: rgb(200, 88, 88);
+            //padding: 10px 0px;
+            //background: rgb(200, 88, 88);
             grid-area: grid_footer;
         }
 
