@@ -1,0 +1,260 @@
+@import "colorFont";
+
+.contSectionThree{
+    width: 100%;
+    padding: 50px 30px;
+    background: $color_white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .contSectionThree_title{
+        font-size: $fuente_h2;
+        font-weight: 400;
+        color: $color_rojoBoton;
+    }
+    .contSectionThree_parrafo{
+        width: 70%;
+        margin-top: 20px;
+        font-family: $fuente_parrafo;
+        color: $color_black_fuerte;
+        text-align: center;
+        font-size: 18px;
+    }
+    .subGrid_SectionThree{
+        margin-top: 20px;
+        width: 80%;
+        padding: 10px 0px;
+        //background: rgb(12, 51, 67);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 1em;
+        grid-template-areas:
+            "subGrid_SectionThree_box1   subGrid_SectionThree_box2   subGrid_SectionThree_box3"
+            "subGrid_SectionThree_box4   subGrid_SectionThree_box5   subGrid_SectionThree_box6"
+        ;
+        .subGrid_SectionThree_box1{
+            grid-area: subGrid_SectionThree_box1;
+            .contSectionThree_box_cont{
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/fondo.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                .contSectionThree_box_contSub{
+                    width: 100%;
+                    height: 80px;
+                    padding: 10px 0px;
+                    background: rgba(165, 42, 42, 0.669);
+                    position: absolute;
+                    bottom: -100px;
+                    text-align: center;
+                    transition: 0.5s all;
+
+                    .contSectionThree_box_contSub_text{
+                        color: $color_grey;
+                        font-weight: 400;
+                        font-family: $fuente_parrafo
+                    }
+                }
+                
+            }
+            .contSectionThree_box_cont:hover{
+                cursor: pointer;
+                .contSectionThree_box_contSub{
+                    bottom: 0px;
+                }
+            }
+        }
+        .subGrid_SectionThree_box2{
+            //padding: 5px 0px;
+            //background: brown;
+            grid-area: subGrid_SectionThree_box2;
+            .contSectionThree_box_cont{
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/fondo.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                .contSectionThree_box_contSub{
+                    width: 100%;
+                    height: 80px;
+                    padding: 10px 0px;
+                    background: rgba(165, 42, 42, 0.669);
+                    position: absolute;
+                    bottom: -100px;
+                    text-align: center;
+                    transition: 0.5s all;
+
+                    .contSectionThree_box_contSub_text{
+                        color: $color_grey;
+                        font-weight: 400;
+                        font-family: $fuente_parrafo
+                    }
+                }
+                
+            }
+            .contSectionThree_box_cont:hover{
+                cursor: pointer;
+                .contSectionThree_box_contSub{
+                    bottom: 0px;
+                }
+            }
+            
+        }
+        .subGrid_SectionThree_box3{
+            //padding: 5px 0px;
+            //background: brown;
+            grid-area: subGrid_SectionThree_box3;
+            .contSectionThree_box_cont{
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/fondo.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                .contSectionThree_box_contSub{
+                    width: 100%;
+                    height: 80px;
+                    padding: 10px 0px;
+                    background: rgba(165, 42, 42, 0.669);
+                    position: absolute;
+                    bottom: -100px;
+                    text-align: center;
+                    transition: 0.5s all;
+
+                    .contSectionThree_box_contSub_text{
+                        color: $color_grey;
+                        font-weight: 400;
+                        font-family: $fuente_parrafo
+                    }
+                }
+                
+            }
+            .contSectionThree_box_cont:hover{
+                cursor: pointer;
+                .contSectionThree_box_contSub{
+                    bottom: 0px;
+                }
+            }
+        }
+        .subGrid_SectionThree_box4{
+            //padding: 5px 0px;
+            //background: brown;
+            grid-area: subGrid_SectionThree_box4;
+            .contSectionThree_box_cont{
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/fondo.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                .contSectionThree_box_contSub{
+                    width: 100%;
+                    height: 80px;
+                    padding: 10px 0px;
+                    background: rgba(165, 42, 42, 0.669);
+                    position: absolute;
+                    bottom: -100px;
+                    text-align: center;
+                    transition: 0.5s all;
+
+                    .contSectionThree_box_contSub_text{
+                        color: $color_grey;
+                        font-weight: 400;
+                        font-family: $fuente_parrafo
+                    }
+                }
+                
+            }
+            .contSectionThree_box_cont:hover{
+                cursor: pointer;
+                .contSectionThree_box_contSub{
+                    bottom: 0px;
+                }
+            }
+        }
+        .subGrid_SectionThree_box5{
+            //padding: 5px 0px;
+            //background: brown;
+            grid-area: subGrid_SectionThree_box5;
+            .contSectionThree_box_cont{
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/fondo.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                .contSectionThree_box_contSub{
+                    width: 100%;
+                    height: 80px;
+                    padding: 10px 0px;
+                    background: rgba(165, 42, 42, 0.669);
+                    position: absolute;
+                    bottom: -100px;
+                    text-align: center;
+                    transition: 0.5s all;
+
+                    .contSectionThree_box_contSub_text{
+                        color: $color_grey;
+                        font-weight: 400;
+                        font-family: $fuente_parrafo
+                    }
+                }
+                
+            }
+            .contSectionThree_box_cont:hover{
+                cursor: pointer;
+                .contSectionThree_box_contSub{
+                    bottom: 0px;
+                }
+            }
+        }
+        .subGrid_SectionThree_box6{
+            //padding: 5px 0px;
+            //background: brown;
+            grid-area: subGrid_SectionThree_box6;
+            .contSectionThree_box_cont{
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/fondo.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                .contSectionThree_box_contSub{
+                    width: 100%;
+                    height: 80px;
+                    padding: 10px 0px;
+                    background: rgba(165, 42, 42, 0.669);
+                    position: absolute;
+                    bottom: -100px;
+                    text-align: center;
+                    transition: 0.5s all;
+
+                    .contSectionThree_box_contSub_text{
+                        color: $color_grey;
+                        font-weight: 400;
+                        font-family: $fuente_parrafo
+                    }
+                }
+                
+            }
+            .contSectionThree_box_cont:hover{
+                cursor: pointer;
+                .contSectionThree_box_contSub{
+                    bottom: 0px;
+                }
+            }
+        }
+        /*
+        contSectionThree_box_cont
+        contSectionThree_box_contSub
+        contSectionThree_box_contSub_text
+        */
+        
+
+    }
+}
