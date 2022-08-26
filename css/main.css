@@ -8,6 +8,21 @@ body, header {
   font-family: "DynaPuff", cursive;
 }
 
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(212, 40, 40);
+  border-radius: 20px;
+  height: 100px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(201, 22, 22);
+  height: 150px;
+}
+
 .grid_container {
   width: 100%;
   max-width: 1440px;
@@ -395,7 +410,7 @@ cont_sectionTwo_buttom
 .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont {
   width: 100%;
   height: 280px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/p1.jpg);
   background-size: 100% 100%;
   position: relative;
   overflow: hidden;
@@ -404,7 +419,7 @@ cont_sectionTwo_buttom
   width: 100%;
   height: 80px;
   padding: 10px 0px;
-  background: rgba(165, 42, 42, 0.669);
+  background: rgba(230, 128, 11, 0.669);
   position: absolute;
   bottom: -100px;
   text-align: center;
@@ -427,7 +442,7 @@ cont_sectionTwo_buttom
 .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont {
   width: 100%;
   height: 280px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/p2.jpg);
   background-size: 100% 100%;
   position: relative;
   overflow: hidden;
@@ -459,7 +474,7 @@ cont_sectionTwo_buttom
 .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont {
   width: 100%;
   height: 280px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/p3.jpg);
   background-size: 100% 100%;
   position: relative;
   overflow: hidden;
@@ -468,7 +483,7 @@ cont_sectionTwo_buttom
   width: 100%;
   height: 80px;
   padding: 10px 0px;
-  background: rgba(165, 42, 42, 0.669);
+  background: rgba(101, 112, 4, 0.669);
   position: absolute;
   bottom: -100px;
   text-align: center;
@@ -491,7 +506,7 @@ cont_sectionTwo_buttom
 .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont {
   width: 100%;
   height: 280px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/p4.jpg);
   background-size: 100% 100%;
   position: relative;
   overflow: hidden;
@@ -500,7 +515,7 @@ cont_sectionTwo_buttom
   width: 100%;
   height: 80px;
   padding: 10px 0px;
-  background: rgba(165, 42, 42, 0.669);
+  background: rgba(17, 130, 26, 0.669);
   position: absolute;
   bottom: -100px;
   text-align: center;
@@ -523,7 +538,7 @@ cont_sectionTwo_buttom
 .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont {
   width: 100%;
   height: 280px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/p5.jpg);
   background-size: 100% 100%;
   position: relative;
   overflow: hidden;
@@ -532,7 +547,7 @@ cont_sectionTwo_buttom
   width: 100%;
   height: 80px;
   padding: 10px 0px;
-  background: rgba(165, 42, 42, 0.669);
+  background: rgba(116, 2, 105, 0.669);
   position: absolute;
   bottom: -100px;
   text-align: center;
@@ -555,7 +570,7 @@ cont_sectionTwo_buttom
 .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont {
   width: 100%;
   height: 280px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/p6.jpg);
   background-size: 100% 100%;
   position: relative;
   overflow: hidden;
@@ -564,7 +579,7 @@ cont_sectionTwo_buttom
   width: 100%;
   height: 80px;
   padding: 10px 0px;
-  background: rgba(165, 42, 42, 0.669);
+  background: rgba(0, 107, 157, 0.669);
   position: absolute;
   bottom: -100px;
   text-align: center;
@@ -679,6 +694,66 @@ grid_sectionFour_right
   height: 450px;
   padding: 10px 0px;
   background: grey;
+}
+
+/*
+contFooter
+contFooter_logo
+contFooter_ul
+contFooter_li_a
+contFooter_btn
+*/
+.contFooter {
+  width: 100%;
+  padding: 10px 0px;
+  background: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contFooter .contFooter_logo {
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/logo.png);
+  background-size: 100% 100%;
+}
+.contFooter .contFooter_ul {
+  width: 500px;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contFooter .contFooter_ul .contFooter_li {
+  width: 100px;
+  padding: 5px 0px;
+  text-align: center;
+  list-style: none;
+}
+.contFooter .contFooter_ul .contFooter_li .contFooter_li_a {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+.contFooter .contFooter_ul .contFooter_li .contFooter_li_a:hover {
+  color: rgb(204, 72, 72);
+}
+.contFooter .contFooter_btn {
+  margin-right: 30px;
+  width: 200px;
+  padding: 10px 0px;
+  background: rgb(204, 72, 72);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s all;
+}
+.contFooter .contFooter_btn:hover {
+  cursor: pointer;
+  background: rgb(176, 176, 176);
+  box-shadow: 0px 2px 0px white;
 }
 
 /*# sourceMappingURL=main.css.map */
