@@ -8,6 +8,10 @@ body, header {
   font-family: "DynaPuff", cursive;
 }
 
+body {
+  background: grey;
+}
+
 body::-webkit-scrollbar {
   width: 15px;
 }
@@ -226,13 +230,6 @@ body::-webkit-scrollbar-thumb:hover {
   bottom: 50px;
 }
 
-/*
-contSectionOne
-contSectionOne_h2
-contSectionOne_p
-contSectionOne_blockPlatos
-
-**/
 .contSectionOne {
   width: 100%;
   padding: 100px 0px;
@@ -292,17 +289,6 @@ contSectionOne_blockPlatos
   color: #ffffff;
 }
 
-/*
-cont_sectionTwo
-cont_sectionTwo_title
-cont_sectionTwo_Subtitle
-cont_sectionTwo_parrafo
-cont_sectionTwo_block
-    cont_sectionTwo_block_box
-     cont_sectionTwo_block_box_img
-     cont_sectionTwo_block_box_name
-cont_sectionTwo_buttom
-*/
 .cont_sectionTwo {
   width: 100%;
   padding: 100px 30px;
@@ -604,20 +590,6 @@ cont_sectionTwo_buttom
   bottom: 0px;
 }
 
-/*
-grid_sectionFour_left
-    contSectionFour_title
-    contSectionFour_parrafo
-    contSectionFour_form
-        contSectionFour_form_block
-            contSectionFour_form_block_input
-        contSectionFour_form_block
-            contSectionFour_form_block_buttom
-            contSectionFour_form_block_parrafo
-
-
-grid_sectionFour_right
-*/
 .contSectionFour {
   width: 100%;
   padding: 150px 50px;
@@ -703,13 +675,6 @@ grid_sectionFour_right
   background: grey;
 }
 
-/*
-contFooter
-contFooter_logo
-contFooter_ul
-contFooter_li_a
-contFooter_btn
-*/
 .contFooter {
   width: 100%;
   background: rgb(41, 41, 41);
