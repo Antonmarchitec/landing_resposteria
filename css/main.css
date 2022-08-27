@@ -402,34 +402,60 @@ html {
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 0px;
+    position: relative;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_logo {
+    margin-left: 20px;
     width: 70px;
     height: 100px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 350px;
+    width: 100%;
     padding: 10px 0px;
-    display: none;
+    background: black;
+    position: absolute;
+    top: 120px;
+    transition: 0.5s all;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: block;
+    z-index: 10;
+    opacity: 0;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
     list-style: none;
-    width: 100px;
-    padding: 5px 0px;
+    width: 100%;
+    height: 19vh;
+    padding: 10px 0px;
     text-align: center;
+    background: rgb(220, 220, 220);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+    transition: 0.3s linear;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
-    color: white;
+    color: rgb(184, 31, 31);
     font-style: normal;
     font-weight: 400;
+    font-size: 30px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
+  }
+  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover {
+    background: white;
+  }
+  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover .contHeader_blockNav_menu_li_a {
+    color: rgba(0, 0, 0, 0.541);
+  }
+  .contHeader .contHeader_blockNav .contHeader_blockNav_menu_JS {
+    opacity: 1;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_redes {
     display: flex;
@@ -572,34 +598,60 @@ html {
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 0px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_logo {
     width: 50px;
     height: 80px;
+    margin-left: 20px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 350px;
+    width: 100%;
+    height: initial;
     padding: 10px 0px;
-    display: none;
+    background: black;
+    position: absolute;
+    top: 100px;
+    transition: 0.5s all;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: block;
+    z-index: 10;
+    opacity: 0;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
     list-style: none;
-    width: 100px;
-    padding: 5px 0px;
+    width: 100%;
+    height: 19vh;
+    padding: 10px 0px;
     text-align: center;
+    background: rgb(220, 220, 220);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+    transition: 0.3s linear;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
-    color: white;
+    color: rgb(184, 31, 31);
     font-style: normal;
     font-weight: 400;
+    font-size: 30px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
+  }
+  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover {
+    background: white;
+  }
+  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover .contHeader_blockNav_menu_li_a {
+    color: rgba(0, 0, 0, 0.541);
+  }
+  .contHeader .contHeader_blockNav .contHeader_blockNav_menu_JS {
+    opacity: 1;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_redes {
     display: flex;

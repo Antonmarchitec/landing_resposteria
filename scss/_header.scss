@@ -420,43 +420,63 @@
 
             //@at-root
             width: 100%;
-            padding: 10px 20px;
-
+            padding: 10px 0px;
+            position: relative;
 
             .contHeader_blockNav_logo{
                 
                 //@at-root
+                margin-left: 20px;
                 width: 70px;
                 height: 100px;
             }
             .contHeader_blockNav_menu{
-                
+                width: 100%;
+                padding:10px  0px;
+                background: black;
+                position: absolute;
+                top: 120px;
+                transition: 0.5s all;
                 display: flex;
-                flex-direction: row;
+                flex-direction:column;
                 justify-content: space-around;
-
-                //@at-root
-                width: 350px;
-                padding: 10px 0px;
-                display: none;
+                display:block;
+                z-index: 10;
+                opacity: 0;
                 .contHeader_blockNav_menu_li{
                     list-style: none;
-                    width: 100px;
-                    padding: 5px 0px;
+                    width: 100%;
+                    height: 19vh;
+                    padding:10px 0px;
                     text-align: center;
-              
-                    
+                    background: rgb(220, 220, 220);
+                    margin-bottom: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom:5px solid white ;
+                    transition: 0.3s linear;
                     .contHeader_blockNav_menu_li_a{
                         text-decoration: none;
-                        color: white;
+                        color:rgb(184, 31, 31);
                         font-style:normal;
                         font-weight: 400;
+                        font-size: 30px;
                     }
                     .contHeader_blockNav_menu_li_a:hover{
                         color:$color_rojoBoton;
                     }
                 }
+                .contHeader_blockNav_menu_li:hover{
+                    background: white;
+                    .contHeader_blockNav_menu_li_a{
+                        color: $color_black;
+                    }
+                }
                 
+            }
+            .contHeader_blockNav_menu_JS{
+                opacity: 1;
             }
     
             .contHeader_blockNav_redes{
@@ -633,7 +653,7 @@
 
             //@at-root
             width: 100%;
-            padding: 10px 20px;
+            padding: 10px 0px;
 
 
             .contHeader_blockNav_logo{
@@ -641,35 +661,56 @@
                 //@at-root
                 width: 50px;
                 height: 80px;
+                margin-left: 20px;
             }
             .contHeader_blockNav_menu{
-                
+                width: 100%;
+                height: initial;
+                padding:10px 0px;
+                background: black;
+                position: absolute;
+                top: 100px;
+                transition: 0.5s all;
                 display: flex;
-                flex-direction: row;
+                flex-direction:column;
                 justify-content: space-around;
-
-                //@at-root
-                width: 350px;
-                padding: 10px 0px;
-                display: none;
+                display:block;
+                z-index: 10;
+                opacity:0 ;
                 .contHeader_blockNav_menu_li{
                     list-style: none;
-                    width: 100px;
-                    padding: 5px 0px;
+                    width: 100%;
+                    height: 19vh;
+                    padding:10px 0px;
                     text-align: center;
-              
-                    
+                    background: rgb(220, 220, 220);
+                    margin-bottom: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom:5px solid white ;
+                    transition: 0.3s linear;
                     .contHeader_blockNav_menu_li_a{
                         text-decoration: none;
-                        color: white;
+                        color:rgb(184, 31, 31);
                         font-style:normal;
                         font-weight: 400;
+                        font-size: 30px;
                     }
                     .contHeader_blockNav_menu_li_a:hover{
                         color:$color_rojoBoton;
                     }
                 }
+                .contHeader_blockNav_menu_li:hover{
+                    background: white;
+                    .contHeader_blockNav_menu_li_a{
+                        color: $color_black;
+                    }
+                }
                 
+            }
+            .contHeader_blockNav_menu_JS{
+                opacity: 1;
             }
     
             .contHeader_blockNav_redes{
