@@ -27,35 +27,27 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   max-width: 1440px;
   margin: auto;
-  background: rgb(87, 0, 0);
   display: grid;
-  gap: 1em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "grid_header       grid_header       grid_header" "grid_sectionOne   grid_sectionOne   grid_sectionOne" "grid_sectionTwo   grid_sectionTwo   grid_sectionTwo" "grid_sectionThree grid_sectionThree grid_sectionThree" "grid_sectionFour  grid_sectionFour  grid_sectionFour" "grid_footer       grid_footer       grid_footer";
 }
 .grid_container .grid_header {
-  background: rgb(200, 88, 88);
   grid-area: grid_header;
 }
 .grid_container .grid_sectionOne {
-  background: rgb(200, 88, 88);
   grid-area: grid_sectionOne;
 }
 .grid_container .grid_sectionTwo {
-  background: rgb(200, 88, 88);
   grid-area: grid_sectionTwo;
 }
 .grid_container .grid_sectionThree {
-  background: rgb(200, 88, 88);
   grid-area: grid_sectionThree;
 }
 .grid_container .grid_sectionFour {
-  background: rgb(200, 88, 88);
   grid-area: grid_sectionFour;
 }
 .grid_container .grid_footer {
-  background: rgb(200, 88, 88);
   grid-area: grid_footer;
 }
 
