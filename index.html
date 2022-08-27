@@ -16,6 +16,8 @@
     <!--CSS PERSONALIZADO-->
     <link rel="stylesheet" href="./css/main.css">
 
+    <!--HAMBURGUERS.CSS-->
+    <link rel="stylesheet" href="./css/hamburgers.css">
 
     <title>Pagina de reposteria</title>
 </head>
@@ -57,7 +59,11 @@
                     </div> 
 
                     <div class="contHeader_blockNav_btnResponsive">
-
+                        <button class="hamburger hamburger--elastic" type="button">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
                     </div>
                 </nav>
 
@@ -75,21 +81,21 @@
                         Visitar mucho mas
                     </button>
 
-                    <div class="contHeader_blockHeader_icon">
-                        <i class="iconHeader fa-solid fa-angles-down"></i>
-                    </div>
+                    <a href="#sec_one">
+                        <div class="contHeader_blockHeader_icon" >
+                                <i class="iconHeader fa-solid fa-angles-down"></i>
+                        </div>
+                    </a>
 
                     <!--BLOCK HEADER-->
                     <div class="contHeader_blockHeader_curva">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="curva"><path fill="#ffffff" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,229.3C480,267,600,277,720,250.7C840,224,960,160,1080,117.3C1200,75,1320,53,1380,42.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>         
                     </div>
                 </header>
-
-                
             </div>
         </div>
 
-        <div class="grid_sectionOne">
+        <div class="grid_sectionOne" id="sec_one">
            <div class="contSectionOne">
                 <h2 class="contSectionOne_h2"> Platos Faboritos </h2>
 
@@ -326,5 +332,9 @@
             </nav>
         </footer>
     </div>
+
+
+
+    <script src="./js/hamburguesa.js"></script>
 </body>
 </html>

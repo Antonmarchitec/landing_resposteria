@@ -7,12 +7,16 @@
 
 body, header{
     font-family: 'DynaPuff', cursive;
-    
 }
 
+body{
+    scroll-behavior:unset;
+
+}
 
 body::-webkit-scrollbar{
     width: 15px;
+    
 }
 body::-webkit-scrollbar-thumb{
     background: rgb(212, 40, 40);
@@ -25,6 +29,9 @@ body::-webkit-scrollbar-thumb:hover{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 @import "colorFont";

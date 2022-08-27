@@ -8,6 +8,10 @@ body, header {
   font-family: "DynaPuff", cursive;
 }
 
+body {
+  scroll-behavior: unset;
+}
+
 body::-webkit-scrollbar {
   width: 15px;
 }
@@ -21,6 +25,10 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: rgb(201, 22, 22);
   height: 150px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .grid_container {
@@ -134,9 +142,6 @@ body::-webkit-scrollbar-thumb:hover {
   color: rgb(204, 72, 72);
 }
 .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
-  width: 35px;
-  height: 35px;
-  background: teal;
   display: none;
 }
 .contHeader .contHeader_blockHeader {
@@ -300,9 +305,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: rgb(204, 72, 72);
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
-    width: 35px;
-    height: 35px;
-    background: teal;
     display: none;
   }
   .contHeader .contHeader_blockHeader {
@@ -467,9 +469,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: rgb(204, 72, 72);
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
-    width: 40px;
-    height: 40px;
-    background: teal;
     display: block;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive:hover {
@@ -641,9 +640,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: rgb(204, 72, 72);
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
-    width: 40px;
-    height: 40px;
-    background: teal;
     display: block;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive:hover {
