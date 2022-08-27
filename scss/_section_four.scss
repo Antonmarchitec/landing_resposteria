@@ -92,3 +92,209 @@
         margin-right: 50px;
     }
 }
+
+/*
+@import (min-width:1025px) and (max-width:1200px){}
+@import (min-width:770px)  and (max-width:1024px){}
+@import (min-width:641px)  and (max-width:769px){}
+@import (min-width:481px)  and (max-width:640px){}
+@import (min-width:320px)  and (max-width:480px){}*/
+
+@media (min-width:641px)  and (max-width:1024px){
+    .contSectionFour{
+        width: 100%;
+        padding:0px 10px;
+        background:$color_white;
+        background-image: url(../img/franjas.png);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .contSectionFour_left{
+            width:350px;
+            padding: 10px 0px;
+            .contSectionFour_left_title{
+                color: $color_rojoBoton;
+                font-size: $fuente_h2;
+                font-weight: 400;
+            }
+            .contSectionFour_left_parrafo{
+                margin-top: 5px;
+                color: $color_black_fuerte;
+                font-family: $fuente_parrafo;
+                font-size: 18px;
+            }
+            .contSectionFour_left_form{
+                width: 100%;
+                padding: 10px 0px;
+                margin-top: 10px;
+                .contSectionFour_left_form_block1{
+                    margin-bottom: 5px;
+                    width: 100%;
+                    padding: 5px 0px;
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: space-between;
+                    align-items: center;
+                    .contSectionFour_form_block_input1{
+                        width:200px;
+                        input{
+                            width: 90%;
+                            outline: none;
+                            padding: 10px;
+                            border-radius: 20px;
+                            border: none;
+                            color: $color_black_fuerte;
+                            background: $color_grey;
+                        }
+                    }
+    
+                }
+    
+                .contSectionFour_left_form_block2{
+                    width: 100%;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-start;
+                    .contSectionFour_left_form_block_buttom{
+                        width: 150px;
+                        padding: 10px 0px;
+                        background:$color_rojoBoton;
+                        color: white;
+                        border: none;
+                        border-radius: 10px;
+                        transition: 0.3s all;
+                    }
+                    .contSectionFour_left_form_block_buttom:hover{
+                        cursor: pointer;
+                        background: rgb(176, 176, 176);
+                        box-shadow: 0px 2px 0px white;
+                    }
+                    .contSectionFour_left_form_block_parrafo{
+                        width: 250px;
+                        font-family:$fuente_parrafo;
+                        margin-left: 10px;
+                        color: $color_black_fuerte;
+                    }
+                }
+            }
+    
+            
+        }
+        .grid_sectionFour_right{
+            width: 200px;
+            height: 400px;
+            padding: 10px 0px;
+            margin-right: 50px;
+        }
+    }
+    
+}
+
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .contSectionFour{
+        width: 100%;
+        padding:50px 10px;
+        background:$color_white;
+        background-image: url(../img/franjas.png);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: initial;
+        justify-content: flex-start;
+        align-items: center;
+        background: orange;
+        .contSectionFour_left{
+            width:90%;
+            padding: 10px 0px;
+            .contSectionFour_left_title{
+                text-align: center;
+                color: $color_rojoBoton;
+                font-size: $fuente_h2;
+                font-weight: 400;
+            }
+            .contSectionFour_left_parrafo{
+                margin-top: 5px;
+                color: $color_black_fuerte;
+                font-family: $fuente_parrafo;
+                font-size: 18px;
+                text-align: center;
+            }
+            .contSectionFour_left_form{
+                width: 90%;
+                padding: 10px 0px;
+                margin: 10px auto;
+                .contSectionFour_left_form_block1{
+                    margin-bottom: 5px;
+                    width: 100%;
+                    padding: 5px 0px;
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contSectionFour_form_block_input1{
+                        width:200px;
+                        input{
+                            width: 100%;
+                            outline: none;
+                            padding: 10px;
+                            border-radius: 20px;
+                            border: none;
+                            color: $color_black_fuerte;
+                            background: $color_grey;
+                        }
+                    }
+    
+                }
+    
+                .contSectionFour_left_form_block2{
+                    width: 100%;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: flex-start;
+                    .contSectionFour_left_form_block_buttom{
+                        width: 150px;
+                        padding: 10px 0px;
+                        margin-left: 20px;
+                        background:$color_rojoBoton;
+                        color: white;
+                        border: none;
+                        border-radius: 10px;
+                        transition: 0.3s all;
+                    }
+                    .contSectionFour_left_form_block_buttom:hover{
+                        cursor: pointer;
+                        background: rgb(176, 176, 176);
+                        box-shadow: 0px 2px 0px white;
+                    }
+                    .contSectionFour_left_form_block_parrafo{
+                        width: 250px;
+                        font-family:$fuente_parrafo;
+                        margin-left: 10px;
+                        color: $color_black_fuerte;
+                        margin-right: 10px;
+                    }
+                }
+            }
+    
+            
+        }
+        .grid_sectionFour_right{
+            width: 200px;
+            height: 400px;
+            padding: 10px 0px;
+            margin-right: 50px;
+        }
+    }
+    
+}
+
+
