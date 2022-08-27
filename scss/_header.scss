@@ -8,6 +8,7 @@
     background-size: 100% 100%;
     background-attachment: fixed;
     position: relative;
+
     .contHeader_blockNav{
         width: 100%;
         padding: 10px 30px;
@@ -168,16 +169,19 @@
             }
         }
 
+        .contHeader_blockHeader_curva{
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            margin-bottom:-5px ;
+            .curva{
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
     }
 
-    .contHeader_blockHeader_curva{
-        width: 100%;
-        height: 200px;
-        position: absolute;
-        bottom: 50px;
-        
-    }
-    
 }
 
 
@@ -370,18 +374,21 @@
                     color: red;
                 }
             }
-    
-        }
-    
-        .contHeader_blockHeader_curva{
-            //@at-root
-            width: 100%;
-            height: 180px;
-            position: absolute;
-            bottom: -40px;
 
+            .contHeader_blockHeader_curva{
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+                background: hotpink;
+                .curva{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
             
+    
         }
+    
         
     }
     
@@ -591,19 +598,19 @@
                     color: red;
                 }
             }
-    
-        }
-    
-        .contHeader_blockHeader_curva{
-            //@at-root
-            width: 100%;
-            height: 180px;
-            position: absolute;
-            bottom: -90px;
 
-            
+            .contHeader_blockHeader_curva{
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+                background: hotpink;
+                .curva{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+    
         }
-        
     }
     
 }
@@ -800,17 +807,17 @@
                 animation-direction: alternate; 
             }
             
+            .contHeader_blockHeader_curva{
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+                background: hotpink;
+                .curva{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
     
-        }
-    
-        .contHeader_blockHeader_curva{
-            //@at-root
-            width: 100%;
-            height: 180px;
-            position: absolute;
-            bottom: -125px;
-
-            
         }
         
     }
