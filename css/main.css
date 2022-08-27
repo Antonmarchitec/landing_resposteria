@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .grid_container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1600px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -53,7 +53,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .contHeader {
   width: 100%;
-  height: 800px;
+  height: 980px;
   background-image: url(../img/fondo2.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -217,11 +217,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media (min-width: 641px) and (max-width: 1024px) {
   .contHeader {
+    height: 980px;
     background-image: url(../img/fondo2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
+    height: 850px;
     width: 100%;
-    height: 700px;
     position: relative;
   }
   .contHeader .contHeader_blockNav {
@@ -382,11 +383,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 @media (min-width: 481px) and (max-width: 769px) {
   .contHeader {
+    height: 980px;
     background-image: url(../img/fondo2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
+    height: 800px;
     width: 100%;
-    height: 650px;
     position: relative;
   }
   .contHeader .contHeader_blockNav {
@@ -558,8 +560,8 @@ body::-webkit-scrollbar-thumb:hover {
     background-image: url(../img/fondo2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
+    height: 750px;
     width: 100%;
-    height: 600px;
     position: relative;
   }
   .contHeader .contHeader_blockNav {
