@@ -8,10 +8,6 @@ body, header {
   font-family: "DynaPuff", cursive;
 }
 
-body {
-  background: grey;
-}
-
 body::-webkit-scrollbar {
   width: 15px;
 }
@@ -592,8 +588,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 .contSectionFour {
   width: 100%;
-  padding: 150px 50px;
+  padding: 20px 50px;
   background: #ffffff;
+  background-image: url(../img/franjas.png);
+  background-size: 100% 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -669,10 +667,10 @@ body::-webkit-scrollbar-thumb:hover {
   color: rgb(41, 41, 41);
 }
 .contSectionFour .grid_sectionFour_right {
-  width: 50%;
-  height: 450px;
+  width: 400px;
+  height: 700px;
   padding: 10px 0px;
-  background: grey;
+  margin-right: 50px;
 }
 
 .contFooter {
