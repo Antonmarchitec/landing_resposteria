@@ -19,8 +19,8 @@
         align-items: center;
         box-shadow: 0px 0px 10px $color_black;
         .contHeader_blockNav_logo{
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 120px;
         }
         .contHeader_blockNav_menu{
             width: 450px;
@@ -179,3 +179,644 @@
     }
     
 }
+
+
+
+
+@media (min-width:641px)  and (max-width:1024px){
+    .contHeader{
+       
+        background-image: url(../img/fondo2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    
+
+        //@at-root
+        width: 100%;
+        height: 700px;
+        position: relative;
+        .contHeader_blockNav{
+            background: $color_black;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 0px 10px $color_black;
+
+            //@at-root
+            width: 100%;
+            padding: 10px 20px;
+
+
+            .contHeader_blockNav_logo{
+                
+                //@at-root
+                width: 70px;
+                height: 100px;
+            }
+            .contHeader_blockNav_menu{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                //@at-root
+                width: 350px;
+                padding: 10px 0px;
+                .contHeader_blockNav_menu_li{
+                    list-style: none;
+                    width: 100px;
+                    padding: 5px 0px;
+                    text-align: center;
+              
+                    
+                    .contHeader_blockNav_menu_li_a{
+                        text-decoration: none;
+                        color: white;
+                        font-style:normal;
+                        font-weight: 400;
+                    }
+                    .contHeader_blockNav_menu_li_a:hover{
+                        color:$color_rojoBoton;
+                    }
+                }
+                
+            }
+    
+            .contHeader_blockNav_redes{
+                
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                //@at-root
+                width: 200px;
+                padding: 5px 0px;
+                .contHeader_blockNav_redes_phone{
+                    width:120px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .iconPhone{
+                        font-size: 15px;
+                        color: white;
+    
+                    }
+    
+                    .iconText{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }
+    
+                .contHeader_blockNav_redes_boxMedia{
+                    width: 60px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .iconsM{
+                        font-size: 20px;
+                        color: white;
+                    }
+                    .iconsM:hover{
+                        cursor: pointer;
+                        color: $color_rojoBoton;
+                    }
+                }
+            }
+    
+            .contHeader_blockNav_btnResponsive{
+                width: 35px;
+                height: 35px;
+                background: teal;
+                display: none;
+            }
+    
+        }
+    
+        .contHeader_blockHeader{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            //@at-root
+            width: 100%;
+            padding: 10px 0px;
+            margin: 60px auto;
+            .contHeader_blockHeader_h1{
+                font-size: 70px;
+                font-weight: 700;
+                color:$color_rojo;
+                text-shadow: 0px 5px 2px white;
+            }
+    
+            .contHeader_blockHeader_h2{
+                font-size: 50px;
+                font-weight: 400;
+                color: $color_white;
+            }
+    
+            .contHeader_blockHeader_p{
+                width: 60%;
+                margin-top: 50px;
+                text-align: center;
+                font-weight: 400;
+                color: $color_grey;
+                font-family: 'Times New Roman', Times, serif;
+                //@at-root
+                font-size: 16px;
+
+            }
+    
+            .contHeader_blockHeader_bottom{
+                margin-top: 30px;
+                width: 300px;
+                padding: 10px 0px;
+                background:$color_rojoBoton;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                transition: 0.3s all;
+            }
+            .contHeader_blockHeader_bottom:hover{
+                cursor: pointer;
+                background: rgb(176, 176, 176);
+                box-shadow: 0px 2px 0px white;
+    
+            }
+    
+    
+            .contHeader_blockHeader_icon{
+                margin-top: 50px;
+                font-size: 35px;
+                color: white;
+                cursor: pointer;
+                animation-name: arrow;
+                animation-duration: 0.8s;
+                animation-timing-function:ease-in;
+                //animation-delay: 0.1s;
+                animation-fill-mode: both;
+                animation-iteration-count: infinite;
+                animation-direction: alternate; 
+            }
+            @keyframes arrow {
+                from{
+                    transform: translateY(0px);
+                }
+                to{
+                    transform: translateY(10px);
+                    color: red;
+                }
+            }
+    
+        }
+    
+        .contHeader_blockHeader_curva{
+            //@at-root
+            width: 100%;
+            height: 180px;
+            position: absolute;
+            bottom: -40px;
+
+            
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
+
+//tomar nota en este
+@media (min-width:481px)  and (max-width:769px){
+    .contHeader{
+       
+        background-image: url(../img/fondo2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    
+
+        //@at-root
+        width: 100%;
+        height: 650px;
+        position: relative;
+        .contHeader_blockNav{
+            background: $color_black;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 0px 10px $color_black;
+
+            //@at-root
+            width: 100%;
+            padding: 10px 20px;
+
+
+            .contHeader_blockNav_logo{
+                
+                //@at-root
+                width: 70px;
+                height: 100px;
+            }
+            .contHeader_blockNav_menu{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                //@at-root
+                width: 350px;
+                padding: 10px 0px;
+                display: none;
+                .contHeader_blockNav_menu_li{
+                    list-style: none;
+                    width: 100px;
+                    padding: 5px 0px;
+                    text-align: center;
+              
+                    
+                    .contHeader_blockNav_menu_li_a{
+                        text-decoration: none;
+                        color: white;
+                        font-style:normal;
+                        font-weight: 400;
+                    }
+                    .contHeader_blockNav_menu_li_a:hover{
+                        color:$color_rojoBoton;
+                    }
+                }
+                
+            }
+    
+            .contHeader_blockNav_redes{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                //@at-root
+                width: 200px;
+                padding: 5px 0px;
+                .contHeader_blockNav_redes_phone{
+                    width:120px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .iconPhone{
+                        font-size: 15px;
+                        color: white;
+    
+                    }
+    
+                    .iconText{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }
+    
+                .contHeader_blockNav_redes_boxMedia{
+                    width: 60px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .iconsM{
+                        font-size: 20px;
+                        color: white;
+                    }
+                    .iconsM:hover{
+                        cursor: pointer;
+                        color: $color_rojoBoton;
+                    }
+                }
+            }
+    
+            .contHeader_blockNav_btnResponsive{
+                //@at-root
+                width: 40px;
+                height: 40px;
+                background: teal;
+                display: block;
+            }
+            .contHeader_blockNav_btnResponsive:hover{
+                cursor: pointer;
+            }
+        }
+    
+        .contHeader_blockHeader{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            //@at-root
+            width: 100%;
+            padding: 10px 0px;
+            margin: 40px auto;
+            .contHeader_blockHeader_h1{
+                //@at-root
+                width: 100%;
+                line-height: 70px;
+                text-align: center;
+                font-size: 70px;
+                font-weight: 700;
+                color:$color_rojo;
+                text-shadow: 0px 5px 2px white;
+                
+
+            }
+    
+            .contHeader_blockHeader_h2{
+                //@at-root
+                margin-top: 20px;
+                font-size: 30px;
+                font-weight: 400;
+                color: $color_white;
+            }
+    
+            .contHeader_blockHeader_p{  
+                font-weight: 400;
+                color: $color_grey;
+                font-family: 'Times New Roman', Times, serif;
+                //@at-root
+                font-size: 16px;
+                width: 90%;
+                margin-top: 30px;
+                text-align: center;
+            }
+    
+            .contHeader_blockHeader_bottom{
+                margin-top: 30px;
+                width: 200px;
+                padding: 10px 0px;
+                background:$color_rojoBoton;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                transition: 0.3s all;
+            }
+            .contHeader_blockHeader_bottom:hover{
+                cursor: pointer;
+                background: rgb(176, 176, 176);
+                box-shadow: 0px 2px 0px white;
+    
+            }
+    
+    
+            .contHeader_blockHeader_icon{
+                margin-top: 40px;
+                font-size: 35px;
+                color: white;
+                cursor: pointer;
+                animation-name: arrow;
+                animation-duration: 0.8s;
+                animation-timing-function:ease-in;
+                //animation-delay: 0.1s;
+                animation-fill-mode: both;
+                animation-iteration-count: infinite;
+                animation-direction: alternate; 
+            }
+            @keyframes arrow {
+                from{
+                    transform: translateY(0px);
+                }
+                to{
+                    transform: translateY(10px);
+                    color: red;
+                }
+            }
+    
+        }
+    
+        .contHeader_blockHeader_curva{
+            //@at-root
+            width: 100%;
+            height: 180px;
+            position: absolute;
+            bottom: -90px;
+
+            
+        }
+        
+    }
+    
+}
+
+
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    .contHeader{
+       
+        background-image: url(../img/fondo2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        //@at-root
+        width: 100%;
+        height: 600px;
+        position: relative;
+        .contHeader_blockNav{
+            background: $color_black;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 0px 10px $color_black;
+
+            //@at-root
+            width: 100%;
+            padding: 10px 20px;
+
+
+            .contHeader_blockNav_logo{
+                
+                //@at-root
+                width: 50px;
+                height: 80px;
+            }
+            .contHeader_blockNav_menu{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                //@at-root
+                width: 350px;
+                padding: 10px 0px;
+                display: none;
+                .contHeader_blockNav_menu_li{
+                    list-style: none;
+                    width: 100px;
+                    padding: 5px 0px;
+                    text-align: center;
+              
+                    
+                    .contHeader_blockNav_menu_li_a{
+                        text-decoration: none;
+                        color: white;
+                        font-style:normal;
+                        font-weight: 400;
+                    }
+                    .contHeader_blockNav_menu_li_a:hover{
+                        color:$color_rojoBoton;
+                    }
+                }
+                
+            }
+    
+            .contHeader_blockNav_redes{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                //@at-root
+                width: 200px;
+                padding: 5px 0px;
+                display: none;
+                .contHeader_blockNav_redes_phone{
+                    width:120px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .iconPhone{
+                        font-size: 15px;
+                        color: white;
+    
+                    }
+    
+                    .iconText{
+                        font-size: 15px;
+                        color: white;
+                    }
+                }
+    
+                .contHeader_blockNav_redes_boxMedia{
+                    width: 60px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .iconsM{
+                        font-size: 20px;
+                        color: white;
+                    }
+                    .iconsM:hover{
+                        cursor: pointer;
+                        color: $color_rojoBoton;
+                    }
+                }
+            }
+    
+            .contHeader_blockNav_btnResponsive{
+                //@at-root
+                width: 40px;
+                height: 40px;
+                background: teal;
+                display: block;
+            }
+            .contHeader_blockNav_btnResponsive:hover{
+                cursor: pointer;
+            }
+        }
+    
+        .contHeader_blockHeader{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            //@at-root
+            width: 100%;
+            padding: 10px 0px;
+            margin: 40px auto;
+            .contHeader_blockHeader_h1{
+                //@at-root
+                width: 310px;
+                line-height:50px;
+                text-align: center;
+                font-size: 50px;
+                font-weight: 700;
+                color:$color_rojo;
+                text-shadow: 0px 5px 2px white;
+                
+
+            }
+    
+            .contHeader_blockHeader_h2{
+                //@at-root
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 400;
+                color: $color_white;
+            }
+    
+            .contHeader_blockHeader_p{  
+                font-weight: 400;
+                color: $color_grey;
+                font-family: 'Times New Roman', Times, serif;
+                //@at-root
+                font-size: 16px;
+                width: 90%;
+                margin-top: 30px;
+                text-align: center;
+            }
+    
+            .contHeader_blockHeader_bottom{
+                margin-top: 30px;
+                width: 200px;
+                padding: 10px 0px;
+                background:$color_rojoBoton;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                transition: 0.3s all;
+            }
+            .contHeader_blockHeader_bottom:hover{
+                cursor: pointer;
+                background: rgb(176, 176, 176);
+                box-shadow: 0px 2px 0px white;
+    
+            }
+    
+    
+            .contHeader_blockHeader_icon{
+                margin-top: 30px;
+                font-size: 35px;
+                color: white;
+                cursor: pointer;
+                animation-name: arrow;
+                animation-duration: 0.8s;
+                animation-timing-function:ease-in;
+                //animation-delay: 0.1s;
+                animation-fill-mode: both;
+                animation-iteration-count: infinite;
+                animation-direction: alternate; 
+            }
+            
+    
+        }
+    
+        .contHeader_blockHeader_curva{
+            //@at-root
+            width: 100%;
+            height: 180px;
+            position: absolute;
+            bottom: -125px;
+
+            
+        }
+        
+    }
+    
+}
+
+
+
+

@@ -2,7 +2,7 @@
 
 .contFooter{
     width: 100%;
-    //padding: 10px 0px;
+    padding: 30px 0px;
     background: $color_black_fuerte;
     .contFooter_Top{
         width: 100%;
@@ -22,8 +22,8 @@
         align-items: center;
         .contFooter_logo{
             margin-left: 30px;
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 120px;
             background-image: url(../img/logo.png);
             background-size: 100% 100%;
         }
