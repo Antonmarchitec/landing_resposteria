@@ -1286,6 +1286,466 @@ body::-webkit-scrollbar-thumb:hover {
   bottom: 0px;
 }
 
+/*
+@import (min-width:1025px) and (max-width:1200px){}
+@import (min-width:770px)  and (max-width:1024px){}
+@import (min-width:641px)  and (max-width:769px){}
+@import (min-width:481px)  and (max-width:640px){}
+@import (min-width:320px)  and (max-width:480px){}*/
+@media (min-width: 481px) and (max-width: 1024px) {
+  .contSectionThree {
+    width: 100%;
+    padding: 50px 0px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contSectionThree .contSectionThree_title {
+    font-size: 45px;
+    font-weight: 400;
+    color: rgb(204, 72, 72);
+    width: 300px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .contSectionThree .contSectionThree_parrafo {
+    width: 90%;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    font-size: 18px;
+  }
+  .contSectionThree .subGrid_SectionThree {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 0.5em;
+    grid-template-areas: "subGrid_SectionThree_box1   subGrid_SectionThree_box2" "subGrid_SectionThree_box3   subGrid_SectionThree_box4" "subGrid_SectionThree_box5   subGrid_SectionThree_box6";
+    /*
+    contSectionThree_box_cont
+    contSectionThree_box_contSub
+    contSectionThree_box_contSub_text
+    */
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 {
+    grid-area: subGrid_SectionThree_box1;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(230, 128, 11, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 {
+    grid-area: subGrid_SectionThree_box2;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(165, 42, 42, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 {
+    grid-area: subGrid_SectionThree_box3;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p3.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(101, 112, 4, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 {
+    grid-area: subGrid_SectionThree_box4;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p4.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(17, 130, 26, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 {
+    grid-area: subGrid_SectionThree_box5;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p5.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(116, 2, 105, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 {
+    grid-area: subGrid_SectionThree_box6;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p6.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(0, 107, 157, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .contSectionThree {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .contSectionThree .contSectionThree_title {
+    line-height: 40px;
+  }
+  .contSectionThree .contSectionThree_parrafo {
+    width: 100%;
+  }
+  .contSectionThree .subGrid_SectionThree {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    grid-template-areas: "subGrid_SectionThree_box1" "subGrid_SectionThree_box2" "subGrid_SectionThree_box3" "subGrid_SectionThree_box4" "subGrid_SectionThree_box5" "subGrid_SectionThree_box6";
+    /*
+    contSectionThree_box_cont
+    contSectionThree_box_contSub
+    contSectionThree_box_contSub_text
+    */
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 {
+    grid-area: subGrid_SectionThree_box1;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(230, 128, 11, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box1 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 {
+    grid-area: subGrid_SectionThree_box2;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(165, 42, 42, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box2 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 {
+    grid-area: subGrid_SectionThree_box3;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p3.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(101, 112, 4, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box3 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 {
+    grid-area: subGrid_SectionThree_box4;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p4.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(17, 130, 26, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box4 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 {
+    grid-area: subGrid_SectionThree_box5;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p5.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(116, 2, 105, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box5 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 {
+    grid-area: subGrid_SectionThree_box6;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/p6.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont .contSectionThree_box_contSub {
+    width: 100%;
+    height: 80px;
+    padding: 10px 0px;
+    background: rgba(0, 107, 157, 0.669);
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont .contSectionThree_box_contSub .contSectionThree_box_contSub_text {
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont:hover {
+    cursor: pointer;
+  }
+  .contSectionThree .subGrid_SectionThree .subGrid_SectionThree_box6 .contSectionThree_box_cont:hover .contSectionThree_box_contSub {
+    bottom: 0px;
+  }
+}
 .contSectionFour {
   width: 100%;
   padding: 0px 50px;

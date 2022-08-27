@@ -258,3 +258,533 @@
 
     }
 }
+
+
+/*
+@import (min-width:1025px) and (max-width:1200px){}
+@import (min-width:770px)  and (max-width:1024px){}
+@import (min-width:641px)  and (max-width:769px){}
+@import (min-width:481px)  and (max-width:640px){}
+@import (min-width:320px)  and (max-width:480px){}*/
+
+@media (min-width:481px)  and (max-width:1024px){
+    .contSectionThree{
+        width: 100%;
+        padding: 50px 0px;
+        background: $color_white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .contSectionThree_title{
+            font-size: $fuente_h2;
+            font-weight: 400;
+            color: $color_rojoBoton;
+            width: 300px;
+            text-align: center;
+            line-height: 40px;
+        }
+        .contSectionThree_parrafo{
+            width: 90%;
+            margin-top: 20px;
+            font-family: $fuente_parrafo;
+            color: $color_black_fuerte;
+            text-align: center;
+            font-size: 18px;
+        }
+        .subGrid_SectionThree{
+            margin-top: 20px;
+            width: 90%;
+            padding: 10px 0px;
+            //background: rgb(12, 51, 67);
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+            gap: 0.5em;
+            grid-template-areas:
+                "subGrid_SectionThree_box1   subGrid_SectionThree_box2"
+                "subGrid_SectionThree_box3   subGrid_SectionThree_box4"
+                "subGrid_SectionThree_box5   subGrid_SectionThree_box6"
+            ;
+            .subGrid_SectionThree_box1{
+                grid-area: subGrid_SectionThree_box1;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p1.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(230, 128, 11, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box2{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box2;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p2.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(165, 42, 42, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+                
+            }
+            .subGrid_SectionThree_box3{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box3;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p3.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(101, 112, 4, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box4{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box4;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p4.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(17, 130, 26, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box5{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box5;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p5.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(116, 2, 105, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box6{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box6;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p6.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(0, 107, 157, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            /*
+            contSectionThree_box_cont
+            contSectionThree_box_contSub
+            contSectionThree_box_contSub_text
+            */
+            
+    
+        }
+    }
+}
+
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    .contSectionThree{
+        width: 100%;
+        text-align: center;
+        padding: 30px 20px;
+        .contSectionThree_title{
+           line-height: 40px;
+        }
+        .contSectionThree_parrafo{
+           width: 100%;
+        }
+        .subGrid_SectionThree{
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px 0px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;
+            gap: 1em;
+            grid-template-areas:
+                "subGrid_SectionThree_box1"
+                "subGrid_SectionThree_box2"
+                "subGrid_SectionThree_box3"
+                "subGrid_SectionThree_box4"
+                "subGrid_SectionThree_box5"
+                "subGrid_SectionThree_box6"
+            ;
+            .subGrid_SectionThree_box1{
+                grid-area: subGrid_SectionThree_box1;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p1.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(230, 128, 11, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box2{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box2;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p2.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(165, 42, 42, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+                
+            }
+            .subGrid_SectionThree_box3{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box3;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p3.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(101, 112, 4, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box4{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box4;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p4.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(17, 130, 26, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box5{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box5;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p5.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(116, 2, 105, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            .subGrid_SectionThree_box6{
+                //padding: 5px 0px;
+                //background: brown;
+                grid-area: subGrid_SectionThree_box6;
+                .contSectionThree_box_cont{
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/p6.jpg);
+                    background-size: 100% 100%;
+                    position: relative;
+                    overflow: hidden;
+                    .contSectionThree_box_contSub{
+                        width: 100%;
+                        height: 80px;
+                        padding: 10px 0px;
+                        background: rgba(0, 107, 157, 0.669);
+                        position: absolute;
+                        bottom: -100px;
+                        text-align: center;
+                        transition: 0.5s all;
+    
+                        .contSectionThree_box_contSub_text{
+                            color: $color_grey;
+                            font-weight: 400;
+                            font-family: $fuente_parrafo
+                        }
+                    }
+                    
+                }
+                .contSectionThree_box_cont:hover{
+                    cursor: pointer;
+                    .contSectionThree_box_contSub{
+                        bottom: 0px;
+                    }
+                }
+            }
+            /*
+            contSectionThree_box_cont
+            contSectionThree_box_contSub
+            contSectionThree_box_contSub_text
+            */
+            
+    
+        }
+    }
+}
+
