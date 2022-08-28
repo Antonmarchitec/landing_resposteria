@@ -896,6 +896,7 @@ html {
     font-weight: 400;
     text-align: center;
     line-height: 40px;
+    width: 300px;
   }
   .contSectionOne .contSectionOne_p {
     margin-top: 20px;
@@ -1032,6 +1033,7 @@ html {
     font-weight: 400;
     text-align: center;
     line-height: 45px;
+    width: 300px;
   }
   .cont_sectionTwo .cont_sectionTwo_Subtitle {
     margin-top: 5px;
