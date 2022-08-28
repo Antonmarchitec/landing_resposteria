@@ -773,6 +773,7 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
 }
 .contSectionOne .contSectionOne_h2 {
   color: rgb(204, 33, 33);
@@ -958,6 +959,7 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
 }
 .cont_sectionTwo .cont_sectionTwo_title {
   font-size: 45px;
@@ -1104,6 +1106,7 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
 }
 .contSectionThree .contSectionThree_title {
   font-size: 45px;
@@ -1797,6 +1800,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 .contSectionFour .contSectionFour_left {
   width: 420px;

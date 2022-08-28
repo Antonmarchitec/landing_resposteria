@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
     .cont_sectionTwo_title{
         font-size: $fuente_h2;
         color: $color_rojoBoton;
