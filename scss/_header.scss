@@ -108,12 +108,14 @@
             font-weight: 700;
             color:rgb(255, 166, 0);
             text-shadow: 0px 5px 2px $color_rojo;
+            animation-duration:0.8s;
         }
 
         .contHeader_blockHeader_h2{
             font-size: 50px;
             font-weight: 400;
             color: $color_white;
+            animation-delay: 0.09s;
         }
 
         .contHeader_blockHeader_p{
@@ -124,6 +126,7 @@
             font-size: 18px;
             color: $color_grey;
             font-family: 'Times New Roman', Times, serif;
+            animation-delay:0.6s;
         }
 
         .contHeader_blockHeader_bottom{

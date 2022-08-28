@@ -1,7 +1,8 @@
 .grid_container{
     width: 100%;
+    overflow: hidden;
     max-width: 1600px;
-//padding: 10px 0px;
+    //padding: 10px 0px;
     margin: auto;
     //background: rgb(87, 0, 0);
     display: grid;
