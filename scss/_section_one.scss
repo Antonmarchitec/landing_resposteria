@@ -175,7 +175,6 @@
                 height: 300px;
                 border-radius: 10px;
                 margin-bottom: 10px;
-                background: $color_rojoBoton;
                 padding: 20px 0px;
                 transition: 0.3s all;
                 .contSectionPlatos_blockPlatos_box_img{
@@ -196,10 +195,10 @@
                 }
             }
             .contSectionOne_block_box:hover{
-                background: $color_rojoBoton;
+                background: $color_white;
                 border-radius: 10px;
                 .contSectionPlatos_blockPlatos_box_text{
-                    color: $color_white;
+                    color: $color_black_fuerte;
                 }
             }
             

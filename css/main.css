@@ -437,10 +437,10 @@ html {
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
-    color: rgb(184, 31, 31);
+    color: orange;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
@@ -631,10 +631,10 @@ html {
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
-    color: rgb(184, 31, 31);
+    color: orange;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
   }
   .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
@@ -920,7 +920,6 @@ html {
     height: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
-    background: rgb(204, 72, 72);
     padding: 20px 0px;
     transition: 0.3s all;
   }
@@ -939,11 +938,11 @@ html {
     transition: 1s all;
   }
   .contSectionOne .contSectionOne_blockPlatos .contSectionOne_block_box:hover {
-    background: rgb(204, 72, 72);
+    background: #ffffff;
     border-radius: 10px;
   }
   .contSectionOne .contSectionOne_blockPlatos .contSectionOne_block_box:hover .contSectionPlatos_blockPlatos_box_text {
-    color: #ffffff;
+    color: rgb(41, 41, 41);
   }
 }
 .cont_sectionTwo {

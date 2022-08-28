@@ -191,8 +191,6 @@
         background-image: url(../img/fondo2.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
-    
-
         //@at-root
         height: 850px;
         width: 100%;
@@ -455,10 +453,10 @@
                     transition: 0.3s linear;
                     .contHeader_blockNav_menu_li_a{
                         text-decoration: none;
-                        color:rgb(184, 31, 31);
+                        color:orange;
                         font-style:normal;
                         font-weight: 400;
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                     .contHeader_blockNav_menu_li_a:hover{
                         color:$color_rojoBoton;
@@ -685,10 +683,10 @@
                     transition: 0.3s linear;
                     .contHeader_blockNav_menu_li_a{
                         text-decoration: none;
-                        color:rgb(184, 31, 31);
+                        color:orange;
                         font-style:normal;
                         font-weight: 400;
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                     .contHeader_blockNav_menu_li_a:hover{
                         color:$color_rojoBoton;
