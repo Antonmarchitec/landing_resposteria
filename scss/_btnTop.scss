@@ -1,0 +1,27 @@
+@import "colorFont";
+
+
+.btnTop{
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right:30px;
+    bottom:30px;
+    animation: mover 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+}
+.btnTop:hover{
+    cursor: pointer;
+}
+@keyframes mover {
+    to{
+        transform: translateY(10px);
+    }   
+}
+
+.btnTop_JS{
+    opacity: 1;
+}

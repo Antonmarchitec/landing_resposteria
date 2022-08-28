@@ -4,9 +4,9 @@
   
   // Look for .hamburger
   //var contEnlaces = document.getElementById("menuenlaces");
-  var hamburger = document.querySelector(".hamburger");
+  let hamburger = document.querySelector(".hamburger");
   // On click
-  hamburger.addEventListener("click", function() {
+  hamburger.addEventListener("click", () => {
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu

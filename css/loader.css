@@ -9,7 +9,7 @@
     position: fixed;
 }
 .dowloader_JS{
-    animation: preloader 2s forwards; 
+    animation: preloader 3s forwards; 
 }
 @keyframes preloader {
     100%{
