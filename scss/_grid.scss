@@ -1,10 +1,12 @@
+@import "colorFont";
+
 .grid_container{
     width: 100%;
     overflow: hidden;
     max-width: 1600px;
     //padding: 10px 0px;
     margin: auto;
-    //background: rgb(87, 0, 0);
+    background: $color_black;
     display: grid;
     //gap: 1em;
     grid-template-columns: repeat(3,1fr);

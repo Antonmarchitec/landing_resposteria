@@ -36,6 +36,7 @@ html {
   overflow: hidden;
   max-width: 1600px;
   margin: auto;
+  background: rgba(0, 0, 0, 0.541);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
