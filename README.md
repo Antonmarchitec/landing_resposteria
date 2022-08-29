@@ -24,6 +24,12 @@ Landing page estructurada con una base construida con CSS GRID, header (Encabeza
 - Tablet: 720px
 - Móvil: 320px
 
+## Codigo fuente
+https://github.com/Antonmarchitec/sitio-reposteria.git
+
+## Vista previa:
+https://antonmarchitec.github.io/sitio-reposteria/
+
 ## Frase del día:
 "Las ideas tienen que ir tomando forma. Se van haciendo realidad al trabajar en ellas. Solo hay que ponerse en marcha".
 -- Mark Zuckerberg --
