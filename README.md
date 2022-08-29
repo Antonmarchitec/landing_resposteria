@@ -1,4 +1,4 @@
-# LANDING PAGE PARA UNA PASTELERÍA O COMIDA RÁPIDA 
+# LANDING PAGE PASTELERÍA 
 
 ## Tecnologías utilizadas para el desarrollo:
 - HTML.- Lenguaje de marcado de hipertexto para definir la estructura.
