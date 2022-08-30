@@ -66,9 +66,15 @@ html {
   height: 980px;
   background-image: url(../img/fondo2.jpg);
   background-size: 100% 100%;
+  background-attachment: fixed;
   position: relative;
 }
-.contHeader .contHeader_blockNav {
+.contHeader .capa {
+  width: 100%;
+  height: 980px;
+  background: rgba(0, 0, 0, 0.578);
+}
+.contHeader .capa .contHeader_blockNav {
   width: 100%;
   padding: 10px 30px;
   background: rgba(0, 0, 0, 0.541);
@@ -79,73 +85,73 @@ html {
   align-items: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_logo {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_logo {
   width: 90px;
   height: 120px;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_menu {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu {
   width: 450px;
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
   list-style: none;
   width: 100px;
   padding: 5px 0px;
   text-align: center;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
   text-decoration: none;
   color: white;
   font-style: normal;
   font-weight: 400;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
   color: rgb(204, 72, 72);
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes {
   width: 250px;
   padding: 5px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
   width: 120px;
   padding: 5px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
   font-size: 15px;
   color: white;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
   font-size: 15px;
   color: white;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
   width: 60px;
   padding: 5px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
   font-size: 20px;
   color: white;
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
   cursor: pointer;
   color: rgb(204, 72, 72);
 }
-.contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
+.contHeader .capa .contHeader_blockNav .contHeader_blockNav_btnResponsive {
   display: none;
 }
-.contHeader .contHeader_blockHeader {
+.contHeader .capa .contHeader_blockHeader {
   width: 70%;
   padding: 10px 0px;
   margin: 100px auto;
@@ -154,20 +160,20 @@ html {
   justify-content: flex-start;
   align-items: center;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_h1 {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h1 {
   font-size: 70px;
   font-weight: 700;
   color: rgb(255, 166, 0);
   text-shadow: 0px 5px 2px rgb(204, 33, 33);
   animation-duration: 0.8s;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_h2 {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h2 {
   font-size: 50px;
   font-weight: 400;
   color: #ffffff;
   animation-delay: 0.09s;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_p {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_p {
   width: 60%;
   margin-top: 50px;
   text-align: center;
@@ -177,7 +183,7 @@ html {
   font-family: "Times New Roman", Times, serif;
   animation-delay: 0.6s;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom {
   margin-top: 30px;
   width: 300px;
   padding: 10px 0px;
@@ -187,12 +193,12 @@ html {
   border-radius: 10px;
   transition: 0.3s all;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
   cursor: pointer;
   background: rgb(176, 176, 176);
   box-shadow: 0px 2px 0px white;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_icon {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_icon {
   margin-top: 50px;
   font-size: 35px;
   color: white;
@@ -213,20 +219,19 @@ html {
     color: red;
   }
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_curva {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva {
   width: 100%;
   position: absolute;
   bottom: 0px;
   margin-bottom: -5px;
 }
-.contHeader .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
+.contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
   position: absolute;
   bottom: 0;
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
   .contHeader {
-    height: 980px;
     background-image: url(../img/fondo2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -234,7 +239,12 @@ html {
     width: 100%;
     position: relative;
   }
-  .contHeader .contHeader_blockNav {
+  .contHeader .capa {
+    width: 100%;
+    height: 850px;
+    background: rgba(0, 0, 0, 0.541);
+  }
+  .contHeader .capa .contHeader_blockNav {
     background: rgba(0, 0, 0, 0.541);
     display: flex;
     flex-direction: row;
@@ -245,73 +255,73 @@ html {
     width: 100%;
     padding: 10px 20px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_logo {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_logo {
     width: 70px;
     height: 100px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 350px;
     padding: 10px 0px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
     list-style: none;
     width: 100px;
     padding: 5px 0px;
     text-align: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
     color: white;
     font-style: normal;
     font-weight: 400;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 200px;
     padding: 5px 0px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
     width: 120px;
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
     font-size: 15px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
     font-size: 15px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
     width: 60px;
     padding: 5px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
     font-size: 20px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
     cursor: pointer;
     color: rgb(204, 72, 72);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_btnResponsive {
     display: none;
   }
-  .contHeader .contHeader_blockHeader {
+  .contHeader .capa .contHeader_blockHeader {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -320,16 +330,16 @@ html {
     padding: 10px 0px;
     margin: 60px auto;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_h1 {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h1 {
     font-size: 70px;
     font-weight: 700;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_h2 {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h2 {
     font-size: 50px;
     font-weight: 400;
     color: #ffffff;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_p {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_p {
     width: 60%;
     margin-top: 50px;
     text-align: center;
@@ -338,7 +348,7 @@ html {
     font-family: "Times New Roman", Times, serif;
     font-size: 16px;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom {
     margin-top: 30px;
     width: 300px;
     padding: 10px 0px;
@@ -348,12 +358,12 @@ html {
     border-radius: 10px;
     transition: 0.3s all;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
     cursor: pointer;
     background: rgb(176, 176, 176);
     box-shadow: 0px 2px 0px white;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_icon {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_icon {
     margin-top: 50px;
     font-size: 35px;
     color: white;
@@ -374,12 +384,12 @@ html {
       color: red;
     }
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_curva {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva {
     width: 100%;
     position: absolute;
     bottom: 0px;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
     position: absolute;
     bottom: 0;
   }
@@ -394,7 +404,12 @@ html {
     width: 100%;
     position: relative;
   }
-  .contHeader .contHeader_blockNav {
+  .contHeader .capa {
+    height: 800px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.642);
+  }
+  .contHeader .capa .contHeader_blockNav {
     background: rgba(0, 0, 0, 0.541);
     display: flex;
     flex-direction: row;
@@ -406,12 +421,12 @@ html {
     padding: 10px 0px;
     position: relative;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_logo {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_logo {
     margin-left: 20px;
     width: 70px;
     height: 100px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu {
     width: 100%;
     padding: 0px;
     background: transparent;
@@ -425,7 +440,7 @@ html {
     z-index: 10;
     opacity: 0;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
     list-style: none;
     width: 100%;
     height: 19vh;
@@ -439,69 +454,69 @@ html {
     border-bottom: 5px solid white;
     transition: 0.3s linear;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
     color: orange;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover {
     background: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover .contHeader_blockNav_menu_li_a {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover .contHeader_blockNav_menu_li_a {
     color: rgba(0, 0, 0, 0.541);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu_JS {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu_JS {
     opacity: 1;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 200px;
     padding: 5px 0px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
     width: 120px;
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
     font-size: 15px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
     font-size: 15px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
     width: 60px;
     padding: 5px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
     font-size: 20px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
     cursor: pointer;
     color: rgb(204, 72, 72);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_btnResponsive {
     display: block;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_btnResponsive:hover {
     cursor: pointer;
   }
-  .contHeader .contHeader_blockHeader {
+  .contHeader .capa .contHeader_blockHeader {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -510,20 +525,20 @@ html {
     padding: 10px 0px;
     margin: 40px auto;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_h1 {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h1 {
     width: 100%;
     line-height: 70px;
     text-align: center;
     font-size: 70px;
     font-weight: 700;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_h2 {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h2 {
     margin-top: 20px;
     font-size: 30px;
     font-weight: 400;
     color: #ffffff;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_p {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_p {
     font-weight: 400;
     color: rgb(221, 221, 221);
     font-family: "Times New Roman", Times, serif;
@@ -532,7 +547,7 @@ html {
     margin-top: 30px;
     text-align: center;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom {
     margin-top: 30px;
     width: 200px;
     padding: 10px 0px;
@@ -542,12 +557,12 @@ html {
     border-radius: 10px;
     transition: 0.3s all;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
     cursor: pointer;
     background: rgb(176, 176, 176);
     box-shadow: 0px 2px 0px white;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_icon {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_icon {
     margin-top: 40px;
     font-size: 35px;
     color: white;
@@ -568,13 +583,13 @@ html {
       color: red;
     }
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_curva {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva {
     width: 100%;
     height: 50px;
     position: absolute;
     bottom: 0px;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
     position: absolute;
     bottom: 0;
   }
@@ -588,7 +603,12 @@ html {
     width: 100%;
     position: relative;
   }
-  .contHeader .contHeader_blockNav {
+  .contHeader .capa {
+    width: 100%;
+    height: 750px;
+    background: rgba(0, 0, 0, 0.621);
+  }
+  .contHeader .capa .contHeader_blockNav {
     background: rgba(0, 0, 0, 0.541);
     display: flex;
     flex-direction: row;
@@ -599,12 +619,12 @@ html {
     width: 100%;
     padding: 10px 0px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_logo {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_logo {
     width: 50px;
     height: 80px;
     margin-left: 20px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu {
     width: 100%;
     height: initial;
     padding: 0px;
@@ -618,7 +638,7 @@ html {
     z-index: 10;
     opacity: 0;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li {
     list-style: none;
     width: 100%;
     height: 19vh;
@@ -632,26 +652,26 @@ html {
     border-bottom: 5px solid white;
     transition: 0.3s linear;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a {
     text-decoration: none;
     color: orange;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li .contHeader_blockNav_menu_li_a:hover {
     color: rgb(204, 72, 72);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover {
     background: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover .contHeader_blockNav_menu_li_a {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu .contHeader_blockNav_menu_li:hover .contHeader_blockNav_menu_li_a {
     color: rgba(0, 0, 0, 0.541);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_menu_JS {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_menu_JS {
     opacity: 1;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -659,43 +679,43 @@ html {
     padding: 5px 0px;
     display: none;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone {
     width: 120px;
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconPhone {
     font-size: 15px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_phone .iconText {
     font-size: 15px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia {
     width: 60px;
     padding: 5px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM {
     font-size: 20px;
     color: white;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_redes .contHeader_blockNav_redes_boxMedia .iconsM:hover {
     cursor: pointer;
     color: rgb(204, 72, 72);
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_btnResponsive {
     display: block;
   }
-  .contHeader .contHeader_blockNav .contHeader_blockNav_btnResponsive:hover {
+  .contHeader .capa .contHeader_blockNav .contHeader_blockNav_btnResponsive:hover {
     cursor: pointer;
   }
-  .contHeader .contHeader_blockHeader {
+  .contHeader .capa .contHeader_blockHeader {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -704,20 +724,20 @@ html {
     padding: 10px 0px;
     margin: 40px auto;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_h1 {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h1 {
     width: 310px;
     line-height: 50px;
     text-align: center;
     font-size: 50px;
     font-weight: 700;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_h2 {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_h2 {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_p {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_p {
     font-weight: 400;
     color: rgb(221, 221, 221);
     font-family: "Times New Roman", Times, serif;
@@ -726,7 +746,7 @@ html {
     margin-top: 30px;
     text-align: center;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom {
     margin-top: 30px;
     width: 200px;
     padding: 10px 0px;
@@ -736,12 +756,12 @@ html {
     border-radius: 10px;
     transition: 0.3s all;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_bottom:hover {
     cursor: pointer;
     background: rgb(176, 176, 176);
     box-shadow: 0px 2px 0px white;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_icon {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_icon {
     margin-top: 30px;
     font-size: 35px;
     color: white;
@@ -753,13 +773,13 @@ html {
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_curva {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva {
     width: 100%;
     position: absolute;
     bottom: 0px;
     background: hotpink;
   }
-  .contHeader .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
+  .contHeader .capa .contHeader_blockHeader .contHeader_blockHeader_curva .curva {
     position: absolute;
     bottom: 0;
   }
