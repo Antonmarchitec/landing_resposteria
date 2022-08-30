@@ -67,6 +67,21 @@
         }
     } 
 
+    .line{
+        width: 80%;
+        height: 0.5px;
+        background:$color_white;
+        border: none;
+        margin: auto;
+        box-shadow: 0px 0px 5px white;
+    }
+    .contFooter_copyRight{
+        width: 100%;
+        padding: 20px 0px;
+        color: $color_white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
     
 }
 
@@ -78,7 +93,6 @@
         width: 100%;
         padding:0px;
         background: $color_black_fuerte;
-        background: gold;
         .contFooter_Top{
             width: 100%;
             background:$color_white;
@@ -144,6 +158,21 @@
             }
         } 
     
+        .line{
+            width: 80%;
+            height: 0.5px;
+            background:$color_white;
+            border: none;
+            margin: auto;
+            box-shadow: 0px 0px 5px white;
+        }
+        .contFooter_copyRight{
+            width: 100%;
+            padding: 20px 0px;
+            color: $color_white;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
         
     }
 }
